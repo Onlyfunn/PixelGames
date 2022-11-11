@@ -1,0 +1,169 @@
+@import url('../../css_reset/reset.css');
+
+
+body{
+	user-select: none;
+	background-color: #222;
+
+}
+
+.box{
+	background-color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+
+}
+
+.what{
+	display: none;
+}
+.window{
+	transition-duration: 1s;
+	margin-top: 120px;
+	background-color: #eee;
+	height: 400px;
+	width: 500px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(256, 36, 0, 0.3);
+}
+
+.welcome{
+	user-select: none;
+	transition-duration: 2s;
+	opacity: 0;
+	display: none;
+	text-align: center;
+	font-family: Arial;
+	font-weight: 500;
+	font-size: 44px;
+	color: #eee;
+	text-shadow: 2px 2px 3px #000;
+}
+
+.welcome span{
+	color: #ff2400;
+}
+form p:first-child{
+	margin-top: 40px;
+	user-select: none;
+}
+form input{
+	font-size: 20px;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 1px solid #333;
+	height: 35px;
+	width: 300px;
+	transition-duration: 0.4s;
+	text-align: center;
+
+}
+form input:hover{
+	border: 1px solid #eee;
+
+}
+form input:focus{
+	outline: none;
+	border: none;
+	border-radius: 0px;
+	box-shadow: inset 0px 0px 3px #000;
+	background-color: #fff;
+}
+form p{
+	color: rgba(255, 97, 97, 1);
+	text-shadow: -0.5px -0.5px 1px #000;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 26px;
+	font-family: Arial;
+	text-align: center;
+}
+
+form button{
+	border: none;
+	border-radius: 7px;
+	font-family: Arial;
+	font-size: 21px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: rgba(255, 97, 97, 1);
+	height: 50px;
+	width: 210px;
+	transition-duration: 0.5s;
+}
+form button:hover{
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.container{
+	opacity: 0;
+	transition-duration: 1s;
+	padding: 60px;
+	background-color: #222;
+	display: none;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.icon{
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+	background-color: #fff;
+	height: 250px;
+	width: 250px;
+	transition-duration: 0.5s;
+	user-select: none;
+	margin: 40px;
+}
+
+.icon1{
+	background-image: url(../img/snake2.jpg);
+	background-size: 100%;
+
+}
+
+.icon2{
+	background-image: url(../img/ping.jpg);
+	background-size: 100%;
+}
+
+.icon3{
+	background-image: url(../img/cars.jpg);
+	background-size: 100%;
+
+}
+
+.icon4{
+	background-image: url(../img/Tetris.jpg);
+	background-size: 100%;
+
+}
+
+.icon:hover{
+	height: 270px;
+	width: 270px;
+}
+
+
+@media (max-width:600px)  {
+	.icon{
+		height: 200px;
+		width: 200px;
+	}
+	.icon:hover{
+		height: 200px;
+		width: 200px;
+	}
+
+
+
+}
