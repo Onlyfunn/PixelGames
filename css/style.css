@@ -156,11 +156,11 @@ form button:hover{
 
 @media (max-width:600px)  {
 	.icon{
-		height: 200px;
+		height: 180px;
 		width: 200px;
 	}
 	.icon:hover{
-		height: 200px;
+		height: 180px;
 		width: 200px;
 	}
 
